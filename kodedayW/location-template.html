@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KodeDay White</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+		    aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Features</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Pricing</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div id="card-wrapper" class="row">
+			<!--div class="col-sm-6 col-lg-3">
+					<div class="card">
+						<img class="card-img-top" src="img/img-sample.jpeg" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Card title</h4>
+							<h5 class="card-description">
+							The simple card description
+							</h5>
+							<p class="card-text card-pricing">$1,000.00 / Noche</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="card">
+						<img class="card-img-top" src="img/img-sample.jpeg" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Card title</h4>
+							<h5 class="card-description">
+							The simple card description
+							</h5>
+							<p class="card-text card-pricing">$1,000.00 / Noche</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="card">
+						<img class="card-img-top" src="img/img-sample.jpeg" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Card title</h4>
+							<h5 class="card-description">
+							The simple card description
+							</h5>
+							<p class="card-text card-pricing">$1,000.00 / Noche</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="card">
+						<img class="card-img-top" src="img/img-sample.jpeg" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Card title</h4>
+							<h5 class="card-description">
+							The simple card description
+							</h5>
+							<p class="card-text card-pricing">$1,000.00 / Noche</p>
+						</div>
+					</div>
+				</div-->
+		</div>
+		<div class="row">
+			<div class="col-sm-6 offset-sm-3">
+				<form action="" class="custom-form">
+					<div class="form-group">
+						<label for="">Título:</label>
+						<input id="location-title" class="form-control" type="text" value="Location 1">
+					</div>
+					<div class="form-group">
+						<label for="">Descripción:</label>
+						<input id="location-description" class="form-control" value="Lorem ipsum dolor sit amet" type="text">
+					</div>
+					<div class="form-group">
+						<label for="">Precio:</label>
+						<input id="location-price" class="form-control" value="$1000 / noche" type="text">
+					</div>
+					<div class="form-group">
+						<label for="">Imagen:</label>
+						<input id="location-cover-url" class="form-control" value="img/img-sample.jpeg" type="text">
+					</div>
+					<div id="submit-button" class="btn btn-primary">Enviar</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyCkic2F37zCeY3KruijHsLZ2xjNgJ9S7s0",
+			authDomain: "whitekodeday-bdbb0.firebaseapp.com",
+			databaseURL: "https://whitekodeday-bdbb0.firebaseio.com",
+			projectId: "whitekodeday-bdbb0",
+			storageBucket: "whitekodeday-bdbb0.appspot.com",
+			messagingSenderId: "575112332775"
+		};
+		firebase.initializeApp(config)
+	</script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
